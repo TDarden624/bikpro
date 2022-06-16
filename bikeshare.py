@@ -31,7 +31,7 @@ def get_filters():
         else:
             print("\n Please enter a valid city")
 
-    months:[January, February, March, April, May, June, None]
+    months:['January', 'February', 'March', 'April', 'May', 'June', 'None']
     month = ''
     while month not in months:
         while month.lower() not in months:
@@ -41,7 +41,7 @@ def get_filters():
         else:
             print("\nPlease enter a valid month")
             
-    days:[Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, All]
+    days:['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'All']
     day = ''
     while day not in days:
         while day.lower() not in days:
